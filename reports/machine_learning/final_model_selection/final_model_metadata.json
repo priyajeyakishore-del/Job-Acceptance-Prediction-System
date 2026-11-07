@@ -1,0 +1,27 @@
+{
+    "project_name": "Job Acceptance Prediction System",
+    "selected_model": "XGBoost",
+    "model_file": "models\\final_model.pkl",
+    "preprocessing_pipeline": "models\\final_preprocessing_pipeline.pkl",
+    "selection_criterion": "Highest test F1-score",
+    "tie_breakers": [
+        "ROC-AUC",
+        "Accuracy"
+    ],
+    "target_column": "status",
+    "target_encoding": {
+        "Not Placed": 0,
+        "Placed": 1
+    },
+    "test_records": 10000,
+    "input_feature_count": 68,
+    "evaluation_metrics": {
+        "Model": "XGBoost",
+        "Accuracy": 0.9179,
+        "Precision": 0.8693467336683417,
+        "Recall": 0.8575677461996034,
+        "F1_Score": 0.8634170687073698,
+        "ROC_AUC": 0.9761651292469377
+    },
+    "selection_note": "Model selected using held-out test evaluation results. Business costs of false positives and false negatives should also be considered before deployment."
+}

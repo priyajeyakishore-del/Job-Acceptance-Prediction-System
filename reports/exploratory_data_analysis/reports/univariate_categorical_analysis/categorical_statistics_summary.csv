@@ -1,0 +1,17 @@
+feature_name,unique_categories,mode,missing_values
+gender,2,female,0
+degree_specialization,5,others,0
+internship_experience,2,no,0
+career_switch_willingness,3,not willing,0
+relevant_experience,3,relevant,0
+company_tier,3,tier 1,0
+job_role_match,3,matched,0
+competition_level,3,low,0
+bond_requirement,2,not required,0
+layoff_history,3,no,0
+relocation_willingness,3,willing,0
+status,2,Not Placed,0
+experience_category,3,Junior,0
+academic_performance_band,4,Good,0
+skills_match_level,3,Medium,0
+interview_performance_category,3,Medium,0

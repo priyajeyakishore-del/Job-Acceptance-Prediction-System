@@ -1,0 +1,46 @@
+feature,category,total_candidates,placed_count,not_placed_count,placement_rate_percentage
+gender,female,25137,7579,17558,30.15
+gender,male,24863,7551,17312,30.37
+degree_specialization,computer science,9907,2941,6966,29.69
+degree_specialization,electronics,10052,3167,6885,31.51
+degree_specialization,information technology,10012,2996,7016,29.92
+degree_specialization,mechanical,9885,2957,6928,29.91
+degree_specialization,others,10144,3069,7075,30.25
+internship_experience,no,26164,6303,19861,24.09
+internship_experience,yes,23836,8827,15009,37.03
+career_switch_willingness,Unknown,8224,2352,5872,28.6
+career_switch_willingness,not willing,27644,7919,19725,28.65
+career_switch_willingness,willing,14132,4859,9273,34.38
+relevant_experience,Unknown,8183,2088,6095,25.52
+relevant_experience,not relevant,16281,3772,12509,23.17
+relevant_experience,relevant,25536,9270,16266,36.3
+company_tier,tier 1,19305,5779,13526,29.94
+company_tier,tier 2,18483,5622,12861,30.42
+company_tier,tier 3,12212,3729,8483,30.54
+job_role_match,Unknown,5949,1424,4525,23.94
+job_role_match,matched,32471,11892,20579,36.62
+job_role_match,not matched,11580,1814,9766,15.66
+competition_level,high,10045,2389,7656,23.78
+competition_level,low,20841,6643,14198,31.87
+competition_level,medium,19114,6098,13016,31.9
+bond_requirement,not required,39060,12540,26520,32.1
+bond_requirement,required,10940,2590,8350,23.67
+layoff_history,Unknown,8234,2619,5615,31.81
+layoff_history,no,36241,11649,24592,32.14
+layoff_history,yes,5525,862,4663,15.6
+relocation_willingness,Unknown,8227,2301,5926,27.97
+relocation_willingness,not willing,14781,3884,10897,26.28
+relocation_willingness,willing,26992,8945,18047,33.14
+experience_category,Fresher,14952,2061,12891,13.78
+experience_category,Junior,30012,10060,19952,33.52
+experience_category,Senior,5036,3009,2027,59.75
+academic_performance_band,Average,15898,4867,11031,30.61
+academic_performance_band,Excellent,1689,500,1189,29.6
+academic_performance_band,Good,32292,9724,22568,30.11
+academic_performance_band,Low,121,39,82,32.23
+skills_match_level,High,23311,8705,14606,37.34
+skills_match_level,Low,1173,0,1173,0.0
+skills_match_level,Medium,25516,6425,19091,25.18
+interview_performance_category,High,3683,2148,1535,58.32
+interview_performance_category,Low,172,0,172,0.0
+interview_performance_category,Medium,46145,12982,33163,28.13

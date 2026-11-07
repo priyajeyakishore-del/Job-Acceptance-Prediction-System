@@ -1,0 +1,16 @@
+CLASS IMBALANCE ANALYSIS
+==================================================
+
+Training records: 40000
+Testing records: 10000
+Majority class count: 27896
+Minority class count: 12104
+Imbalance ratio: 2.30
+Analysis result: Class imbalance detected
+
+CLASS DISTRIBUTION:
+ Dataset      Class  Class_Value  Count  Percentage
+Training Not Placed            0  27896       69.74
+Training     Placed            1  12104       30.26
+ Testing Not Placed            0   6974       69.74
+ Testing     Placed            1   3026       30.26

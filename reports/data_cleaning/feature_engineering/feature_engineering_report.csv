@@ -1,0 +1,6 @@
+feature_name,data_type,unique_values,missing_values,status
+experience_category,category,3,0,Created
+academic_performance_band,category,4,0,Created
+skills_match_level,category,3,0,Created
+interview_performance_category,category,3,0,Created
+placement_probability_score,float64,2591,0,Created

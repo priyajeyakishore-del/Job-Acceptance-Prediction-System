@@ -1,0 +1,57 @@
+JOB ACCEPTANCE PREDICTION SYSTEM
+EDA PIPELINE EXECUTION REPORT
+===========================================================================
+
+Execution date: 2026-11-02 11:29:36.491259
+Total scripts: 9
+Successful scripts: 9
+Failed scripts: 0
+Total execution time: 127.40 seconds
+
+SCRIPT EXECUTION DETAILS
+---------------------------------------------------------------------------
+
+Script: dataset_overview.py
+Status: SUCCESS
+Duration: 1.54 seconds
+Message: Executed successfully
+
+Script: data_quality_analysis.py
+Status: SUCCESS
+Duration: 1.38 seconds
+Message: Executed successfully
+
+Script: target_analysis.py
+Status: SUCCESS
+Duration: 3.52 seconds
+Message: Executed successfully
+
+Script: univariate_numerical_analysis.py
+Status: SUCCESS
+Duration: 32.99 seconds
+Message: Executed successfully
+
+Script: univariate_categorical_analysis.py
+Status: SUCCESS
+Duration: 14.73 seconds
+Message: Executed successfully
+
+Script: bivariate_numerical_analysis.py
+Status: SUCCESS
+Duration: 41.33 seconds
+Message: Executed successfully
+
+Script: bivariate_categorical_analysis.py
+Status: SUCCESS
+Duration: 17.28 seconds
+Message: Executed successfully
+
+Script: multivariate_analysis.py
+Status: SUCCESS
+Duration: 13.23 seconds
+Message: Executed successfully
+
+Script: key_insights.py
+Status: SUCCESS
+Duration: 1.39 seconds
+Message: Executed successfully

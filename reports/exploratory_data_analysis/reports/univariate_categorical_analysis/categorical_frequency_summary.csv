@@ -1,0 +1,48 @@
+feature_name,category,count,percentage
+gender,female,25137,50.27
+gender,male,24863,49.73
+degree_specialization,others,10144,20.29
+degree_specialization,electronics,10052,20.1
+degree_specialization,information technology,10012,20.02
+degree_specialization,computer science,9907,19.81
+degree_specialization,mechanical,9885,19.77
+internship_experience,no,26164,52.33
+internship_experience,yes,23836,47.67
+career_switch_willingness,not willing,27644,55.29
+career_switch_willingness,willing,14132,28.26
+career_switch_willingness,Unknown,8224,16.45
+relevant_experience,relevant,25536,51.07
+relevant_experience,not relevant,16281,32.56
+relevant_experience,Unknown,8183,16.37
+company_tier,tier 1,19305,38.61
+company_tier,tier 2,18483,36.97
+company_tier,tier 3,12212,24.42
+job_role_match,matched,32471,64.94
+job_role_match,not matched,11580,23.16
+job_role_match,Unknown,5949,11.9
+competition_level,low,20841,41.68
+competition_level,medium,19114,38.23
+competition_level,high,10045,20.09
+bond_requirement,not required,39060,78.12
+bond_requirement,required,10940,21.88
+layoff_history,no,36241,72.48
+layoff_history,Unknown,8234,16.47
+layoff_history,yes,5525,11.05
+relocation_willingness,willing,26992,53.98
+relocation_willingness,not willing,14781,29.56
+relocation_willingness,Unknown,8227,16.45
+status,Not Placed,34870,69.74
+status,Placed,15130,30.26
+experience_category,Junior,30012,60.02
+experience_category,Fresher,14952,29.9
+experience_category,Senior,5036,10.07
+academic_performance_band,Good,32292,64.58
+academic_performance_band,Average,15898,31.8
+academic_performance_band,Excellent,1689,3.38
+academic_performance_band,Low,121,0.24
+skills_match_level,Medium,25516,51.03
+skills_match_level,High,23311,46.62
+skills_match_level,Low,1173,2.35
+interview_performance_category,Medium,46145,92.29
+interview_performance_category,High,3683,7.37
+interview_performance_category,Low,172,0.34

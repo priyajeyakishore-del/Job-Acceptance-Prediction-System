@@ -1,0 +1,42 @@
+Column,Value,Count
+gender,Female,23701
+gender,Male,23416
+gender,female,1504
+gender,male,1503
+degree_specialization,Others,10174
+degree_specialization,Electronics,10078
+degree_specialization,Information Technology,10032
+degree_specialization,Computer Science,9927
+degree_specialization,Mechanical,9913
+internship_experience,No,24902
+internship_experience,Yes,22715
+internship_experience, no,1314
+internship_experience,yes ,1193
+career_switch_willingness,Not Willing,27707
+career_switch_willingness,Willing,14175
+career_switch_willingness,<MISSING>,8242
+relevant_experience,Relevant,25597
+relevant_experience,Not Relevant,16328
+relevant_experience,<MISSING>,8199
+company_tier,Tier 1,18526
+company_tier,Tier 2,17780
+company_tier,Tier 3,11727
+company_tier,Tier 1 ,832
+company_tier,Tier 2 ,754
+company_tier,Tier 3 ,505
+job_role_match,Matched,32557
+job_role_match,Not Matched,11603
+job_role_match,<MISSING>,5964
+competition_level,Low,20891
+competition_level,Medium,19165
+competition_level,High,10068
+bond_requirement,Not Required,39164
+bond_requirement,Required,10960
+layoff_history,No,36328
+layoff_history,<MISSING>,8259
+layoff_history,Yes,5537
+relocation_willingness,Willing,27061
+relocation_willingness,Not Willing,14816
+relocation_willingness,<MISSING>,8247
+status,Not Placed,34950
+status,Placed,15174

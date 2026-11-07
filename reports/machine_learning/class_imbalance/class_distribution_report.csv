@@ -1,0 +1,5 @@
+Dataset,Class,Class_Value,Count,Percentage
+Training,Not Placed,0,27896,69.74
+Training,Placed,1,12104,30.26
+Testing,Not Placed,0,6974,69.74
+Testing,Placed,1,3026,30.26

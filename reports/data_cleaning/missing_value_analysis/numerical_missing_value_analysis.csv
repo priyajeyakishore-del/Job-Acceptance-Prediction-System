@@ -1,0 +1,15 @@
+Feature,Missing_Count,Missing_Percentage,Mean,Median,Standard_Deviation,Skewness,Lower_IQR_Bound,Upper_IQR_Bound,Outlier_Count,Outlier_Percentage,Recommended_Method,Reason
+age_years,0,0.0,27.5057,27.0,4.0267,-0.0008,13.5,41.5,0,0.0,Mean (candidate),Skewness and IQR-outlier percentage are not high under the screening rules; verify the histogram.
+ssc_percentage,2509,5.01,70.0148,69.9784,7.9787,0.0498,48.3466,91.6354,168,0.35,Mean (candidate),Skewness and IQR-outlier percentage are not high under the screening rules; verify the histogram.
+hsc_percentage,2006,4.0,72.0636,72.0196,7.9233,0.006,50.6806,93.4374,343,0.71,Mean (candidate),Skewness and IQR-outlier percentage are not high under the screening rules; verify the histogram.
+degree_percentage,0,0.0,74.006,73.9918,6.9475,0.0233,55.1673,92.8386,366,0.73,Mean (candidate),Skewness and IQR-outlier percentage are not high under the screening rules; verify the histogram.
+technical_score,0,0.0,68.0366,68.0027,11.8573,0.0331,35.7704,100.2449,0,0.0,Mean (candidate),Skewness and IQR-outlier percentage are not high under the screening rules; verify the histogram.
+aptitude_score,0,0.0,63.9934,63.9507,9.9149,0.0552,36.9328,90.9659,181,0.36,Mean (candidate),Skewness and IQR-outlier percentage are not high under the screening rules; verify the histogram.
+communication_score,0,0.0,66.1021,66.0247,9.902,0.1027,38.8838,93.2097,162,0.32,Mean (candidate),Skewness and IQR-outlier percentage are not high under the screening rules; verify the histogram.
+skills_match_percentage,0,0.0,73.9414,74.0018,11.8011,-0.0469,41.4811,106.5031,0,0.0,Mean (candidate),Skewness and IQR-outlier percentage are not high under the screening rules; verify the histogram.
+certifications_count,0,0.0,1.4011,1.0,1.185,0.8531,-0.5,3.5,2704,5.39,Median (candidate),High skewness or a relatively high IQR-outlier percentage; median is more robust.
+years_of_experience,0,0.0,1.4939,1.0,1.376,0.7082,-3.0,5.0,0,0.0,Mean (candidate),Skewness and IQR-outlier percentage are not high under the screening rules; verify the histogram.
+previous_ctc_lpa,0,0.0,4.8449,4.807,2.1266,0.1964,-1.1376,10.759,180,0.36,Mean (candidate),Skewness and IQR-outlier percentage are not high under the screening rules; verify the histogram.
+expected_ctc_lpa,0,0.0,8.0021,7.8561,3.1372,0.4265,-0.969,16.7318,297,0.59,Mean (candidate),Skewness and IQR-outlier percentage are not high under the screening rules; verify the histogram.
+notice_period_days,1538,3.07,20.1046,15.0,24.8563,1.351,-45.0,75.0,2483,5.11,Median (candidate),High skewness or a relatively high IQR-outlier percentage; median is more robust.
+employment_gap_months,1074,2.14,3.0587,0.0,4.4319,1.7218,-9.0,15.0,1523,3.1,Median (candidate),High skewness or a relatively high IQR-outlier percentage; median is more robust.

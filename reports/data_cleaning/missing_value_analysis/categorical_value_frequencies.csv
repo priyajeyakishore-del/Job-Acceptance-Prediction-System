@@ -1,0 +1,28 @@
+Feature,Category,Count,Percentage_of_Non_Missing
+gender,female,25205,50.29
+gender,male,24919,49.71
+degree_specialization,others,10174,20.3
+degree_specialization,electronics,10078,20.11
+degree_specialization,information technology,10032,20.01
+degree_specialization,computer science,9927,19.8
+degree_specialization,mechanical,9913,19.78
+internship_experience,no,26216,52.3
+internship_experience,yes,23908,47.7
+career_switch_willingness,not willing,27707,66.15
+career_switch_willingness,willing,14175,33.85
+relevant_experience,relevant,25597,61.05
+relevant_experience,not relevant,16328,38.95
+company_tier,tier 1,19358,38.62
+company_tier,tier 2,18534,36.98
+company_tier,tier 3,12232,24.4
+job_role_match,matched,32557,73.73
+job_role_match,not matched,11603,26.27
+competition_level,low,20891,41.68
+competition_level,medium,19165,38.24
+competition_level,high,10068,20.09
+bond_requirement,not required,39164,78.13
+bond_requirement,required,10960,21.87
+layoff_history,no,36328,86.77
+layoff_history,yes,5537,13.23
+relocation_willingness,willing,27061,64.62
+relocation_willingness,not willing,14816,35.38

@@ -1,0 +1,5 @@
+metric,value
+majority_class,Not Placed
+minority_class,Placed
+imbalance_ratio,2.3
+class_balance,Moderately Imbalanced

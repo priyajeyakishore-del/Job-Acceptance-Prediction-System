@@ -1,0 +1,17 @@
+column,business_rule,invalid_count,status
+ssc_percentage,Value must be between 0 and 100,0,PASS
+hsc_percentage,Value must be between 0 and 100,0,PASS
+degree_percentage,Value must be between 0 and 100,0,PASS
+technical_score,Value must be between 0 and 100,0,PASS
+aptitude_score,Value must be between 0 and 100,0,PASS
+communication_score,Value must be between 0 and 100,0,PASS
+skills_match_percentage,Value must be between 0 and 100,0,PASS
+age_years,Age must be between 18 and 60,0,PASS
+certifications_count,Value must not be negative,0,PASS
+years_of_experience,Value must not be negative,0,PASS
+previous_ctc_lpa,Value must not be negative,0,PASS
+notice_period_days,Value must not be negative,0,PASS
+employment_gap_months,Value must not be negative,0,PASS
+expected_ctc_lpa,Expected CTC must be greater than zero,0,PASS
+status,Value must be Placed or Not Placed,0,PASS
+Entire dataset,Remove pre-existing exact duplicates and investigate post-imputation duplicate candidates,0,PASS

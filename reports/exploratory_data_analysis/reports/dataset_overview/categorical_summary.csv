@@ -1,0 +1,17 @@
+,unique_values,most_frequent_value,most_frequent_count
+gender,2,female,25137
+degree_specialization,5,others,10144
+internship_experience,2,no,26164
+career_switch_willingness,3,not willing,27644
+relevant_experience,3,relevant,25536
+company_tier,3,tier 1,19305
+job_role_match,3,matched,32471
+competition_level,3,low,20841
+bond_requirement,2,not required,39060
+layoff_history,3,no,36241
+relocation_willingness,3,willing,26992
+status,2,Not Placed,34870
+experience_category,3,Junior,30012
+academic_performance_band,4,Good,32292
+skills_match_level,3,Medium,25516
+interview_performance_category,3,Medium,46145

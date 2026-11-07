@@ -1,0 +1,12 @@
+Column,Non_Missing_Before,Non_Missing_After,Unique_Values_Before,Unique_Values_After,Values_Changed
+gender,50124,50124,4,2,47117
+degree_specialization,50124,50124,5,5,50124
+internship_experience,50124,50124,4,2,50124
+career_switch_willingness,41882,41882,2,2,41882
+relevant_experience,41925,41925,2,2,41925
+company_tier,50124,50124,6,3,50124
+job_role_match,44160,44160,2,2,44160
+competition_level,50124,50124,3,3,50124
+bond_requirement,50124,50124,2,2,50124
+layoff_history,41865,41865,2,2,41865
+relocation_willingness,41877,41877,2,2,41877

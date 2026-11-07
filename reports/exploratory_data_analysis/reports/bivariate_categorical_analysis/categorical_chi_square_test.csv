@@ -1,0 +1,16 @@
+feature,chi_square_statistic,degrees_of_freedom,p_value,cramers_v,minimum_expected_frequency,result
+gender,0.2857807830934036,1,0.5929370776553962,0.0023907353809796833,7523.5438,No statistically significant association
+degree_specialization,10.039481963965658,4,0.03976783935165496,0.014170026086049142,2991.201,Statistically significant association
+internship_experience,989.9437358563172,1,2.7551564382599268e-217,0.1407084742193104,7212.7736,Statistically significant association
+career_switch_willingness,158.69098353913267,2,3.4728878637224765e-35,0.05633666364617853,2488.5824,Statistically significant association
+relevant_experience,916.9672883268786,2,7.639822999992915e-200,0.13542284063826743,2476.1758,Statistically significant association
+company_tier,1.6203662522495834,2,0.4447766085479331,0.005692743191554636,3695.3512,No statistically significant association
+job_role_match,1904.6501361513617,2,0.0,0.19517428806845238,1800.1674,Statistically significant association
+competition_level,249.89387593036943,2,5.4479650274421265e-55,0.07069566831572772,3039.617,Statistically significant association
+bond_requirement,287.7862461222757,1,1.509800337760557e-64,0.07586649406981658,3310.444,Statistically significant association
+layoff_history,632.7652243952135,2,3.951639814085505e-138,0.11249579764553105,1671.865,Statistically significant association
+relocation_willingness,237.628345007341,2,2.5099236441406342e-52,0.06893886349619364,2489.4902,Statistically significant association
+experience_category,4149.718338794348,2,0.0,0.2880874290486951,1523.8936,Statistically significant association
+academic_performance_band,1.8434828440194313,3,0.6055186021898262,0.006072038939301083,36.6146,No statistically significant association
+skills_match_level,1375.106104637484,2,2.5090156037539816e-299,0.1658376377447221,354.9498,Statistically significant association
+interview_performance_category,1547.8731677930107,2,0.0,0.17594733119845898,52.0472,Statistically significant association

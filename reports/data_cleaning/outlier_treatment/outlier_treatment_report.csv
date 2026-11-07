@@ -1,0 +1,15 @@
+feature,q1,q3,iqr,lower_bound,upper_bound,outlier_count,outlier_percentage,treatment_decision,treatment_method,values_modified,reason,status
+age_years,24.0,31.0,7.0,13.5,41.5,0,0.0,Retain,No treatment,0,No IQR outliers detected.,Completed
+ssc_percentage,64.899005905,75.0785617825,10.179555877500007,49.629672088749984,90.34789559875001,268,0.54,Retain,No treatment,0,Valid academic percentage values.,Completed
+hsc_percentage,66.9666448775,77.14689976,10.180254882499995,51.69626255375001,92.41728208375,517,1.03,Retain,No treatment,0,Valid academic percentage values.,Completed
+degree_percentage,69.29721351500001,78.71186855500001,9.41465504,55.17523095500001,92.83385111500002,363,0.73,Retain,No treatment,0,Valid academic percentage values.,Completed
+technical_score,59.9427449475,76.06549301499999,16.122748067499984,35.75862284625003,100.24961511624997,0,0.0,Retain,No treatment,0,No IQR outliers detected.,Completed
+aptitude_score,57.192133975000004,70.703372385,13.51123840999999,36.92527636000002,90.97022999999999,181,0.36,Retain,No treatment,0,Valid aptitude scores within business limits.,Completed
+communication_score,59.249579745,72.8363590175,13.586779272500003,38.86941083625,93.21652792625001,161,0.32,Retain,No treatment,0,Valid communication scores within business limits.,Completed
+skills_match_percentage,65.86340279000001,82.117459845,16.25405705499999,41.482317207500024,106.49854542749998,0,0.0,Retain,No treatment,0,No IQR outliers detected.,Completed
+certifications_count,1.0,2.0,1.0,-0.5,3.5,2699,5.4,Retain,No treatment,0,Higher certification counts may be genuine.,Completed
+years_of_experience,0.0,2.0,2.0,-3.0,5.0,0,0.0,Retain,No treatment,0,No IQR outliers detected.,Completed
+previous_ctc_lpa,3.32332550925,6.2980233795,2.97469787025,-1.1387212961249995,10.760070184875,179,0.36,Retain,No treatment,0,Higher previous salaries may be genuine.,Completed
+expected_ctc_lpa,5.6690244375,10.093006085,4.423981647500001,-0.9669480337500014,16.728978556250002,296,0.59,Retain,No treatment,0,Higher salary expectations may be genuine.,Completed
+notice_period_days,0.0,30.0,30.0,-45.0,75.0,2476,4.95,Retain,No treatment,0,Longer notice periods may be valid.,Completed
+employment_gap_months,0.0,6.0,6.0,-9.0,15.0,1520,3.04,Retain,No treatment,0,Longer employment gaps may be genuine.,Completed

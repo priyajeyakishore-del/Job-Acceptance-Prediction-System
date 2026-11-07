@@ -1,0 +1,7 @@
+Rank,Model,Best_CV_Accuracy,Best_CV_Precision,Best_CV_Recall,Best_CV_F1,Best_CV_ROC_AUC,Best_Parameters
+1,Gradient Boosting,0.9123767008253565,0.9067638001512099,0.9192833447706192,0.912974682713045,0.9756036449496642,"{""subsample"": 0.8, ""n_estimators"": 200, ""min_samples_split"": 10, ""min_samples_leaf"": 5, ""max_depth"": 5, ""learning_rate"": 0.1}"
+2,AdaBoost,0.9103259859595795,0.8911074271205832,0.9348975877695619,0.9124766695284491,0.9731441635358048,"{""n_estimators"": 200, ""learning_rate"": 0.5, ""estimator__max_depth"": 2}"
+3,XGBoost,0.9162500455191745,0.8669814150990894,0.8543461740017779,0.8606018475438991,0.9753887208177799,"{""subsample"": 1.0, ""scale_pos_weight"": 1.0, ""reg_lambda"": 5.0, ""n_estimators"": 300, ""min_child_weight"": 3, ""max_depth"": 6, ""learning_rate"": 0.1, ""colsample_bytree"": 0.7}"
+4,Random Forest,0.8796001417209572,0.7544915121586891,0.8925152519159224,0.8177178418747518,0.9588361311534745,"{""n_estimators"": 100, ""min_samples_split"": 10, ""min_samples_leaf"": 5, ""max_features"": ""sqrt"", ""max_depth"": 20, ""criterion"": ""entropy""}"
+5,Logistic Regression,0.874550002343129,0.7456338051139194,0.8885494773155972,0.8108395353801875,0.9506179614183439,"{""solver"": ""liblinear"", ""penalty"": ""l2"", ""C"": 10}"
+6,Decision Tree,0.8094249341384278,0.6323376261817529,0.8847484117344578,0.7375009154480706,0.9124116757733952,"{""min_samples_split"": 30, ""min_samples_leaf"": 10, ""max_features"": null, ""max_depth"": 8, ""criterion"": ""gini""}"

@@ -1,0 +1,5 @@
+column,method,imputation_value
+ssc_percentage,Mean,70.01480155030727
+hsc_percentage,Mean,72.06360180173866
+notice_period_days,Median,15.0
+employment_gap_months,Median,0.0

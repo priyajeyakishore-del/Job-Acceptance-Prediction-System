@@ -1,0 +1,197 @@
+JOB ACCEPTANCE PREDICTION SYSTEM
+EXPLORATORY DATA ANALYSIS - KEY INSIGHTS
+======================================================================
+
+TARGET DISTRIBUTION
+------------------------------------------------------------
+Total candidates: 50000
+Placed candidates: 15130
+Not placed candidates: 34870
+Overall placement rate: 30.26%
+Not Placed: 34870 (69.74%)
+Placed: 15130 (30.26%)
+
+CATEGORICAL FEATURE INSIGHTS
+------------------------------------------------------------
+
+Feature: experience_category
+Fresher: Candidates=14952, Placed=2061, Placement Rate=13.78%
+Junior: Candidates=30012, Placed=10060, Placement Rate=33.52%
+Senior: Candidates=5036, Placed=3009, Placement Rate=59.75%
+Highest placement rate: Senior (59.75%)
+Lowest placement rate: Fresher (13.78%)
+
+Feature: academic_performance_band
+Average: Candidates=15898, Placed=4867, Placement Rate=30.61%
+Excellent: Candidates=1689, Placed=500, Placement Rate=29.60%
+Good: Candidates=32292, Placed=9724, Placement Rate=30.11%
+Low: Candidates=121, Placed=39, Placement Rate=32.23%
+Highest placement rate: Low (32.23%)
+Lowest placement rate: Excellent (29.60%)
+
+Feature: skills_match_level
+High: Candidates=23311, Placed=8705, Placement Rate=37.34%
+Low: Candidates=1173, Placed=0, Placement Rate=0.00%
+Medium: Candidates=25516, Placed=6425, Placement Rate=25.18%
+Highest placement rate: High (37.34%)
+Lowest placement rate: Low (0.00%)
+
+Feature: interview_performance_category
+High: Candidates=3683, Placed=2148, Placement Rate=58.32%
+Low: Candidates=172, Placed=0, Placement Rate=0.00%
+Medium: Candidates=46145, Placed=12982, Placement Rate=28.13%
+Highest placement rate: High (58.32%)
+Lowest placement rate: Low (0.00%)
+
+Feature: gender
+female: Candidates=25137, Placed=7579, Placement Rate=30.15%
+male: Candidates=24863, Placed=7551, Placement Rate=30.37%
+Highest placement rate: male (30.37%)
+Lowest placement rate: female (30.15%)
+
+Feature: degree_specialization
+computer science: Candidates=9907, Placed=2941, Placement Rate=29.69%
+electronics: Candidates=10052, Placed=3167, Placement Rate=31.51%
+information technology: Candidates=10012, Placed=2996, Placement Rate=29.92%
+mechanical: Candidates=9885, Placed=2957, Placement Rate=29.91%
+others: Candidates=10144, Placed=3069, Placement Rate=30.25%
+Highest placement rate: electronics (31.51%)
+Lowest placement rate: computer science (29.69%)
+
+Feature: internship_experience
+no: Candidates=26164, Placed=6303, Placement Rate=24.09%
+yes: Candidates=23836, Placed=8827, Placement Rate=37.03%
+Highest placement rate: yes (37.03%)
+Lowest placement rate: no (24.09%)
+
+Feature: relevant_experience
+Unknown: Candidates=8183, Placed=2088, Placement Rate=25.52%
+not relevant: Candidates=16281, Placed=3772, Placement Rate=23.17%
+relevant: Candidates=25536, Placed=9270, Placement Rate=36.30%
+Highest placement rate: relevant (36.30%)
+Lowest placement rate: not relevant (23.17%)
+
+Feature: company_tier
+tier 1: Candidates=19305, Placed=5779, Placement Rate=29.94%
+tier 2: Candidates=18483, Placed=5622, Placement Rate=30.42%
+tier 3: Candidates=12212, Placed=3729, Placement Rate=30.54%
+Highest placement rate: tier 3 (30.54%)
+Lowest placement rate: tier 1 (29.94%)
+
+Feature: job_role_match
+Unknown: Candidates=5949, Placed=1424, Placement Rate=23.94%
+matched: Candidates=32471, Placed=11892, Placement Rate=36.62%
+not matched: Candidates=11580, Placed=1814, Placement Rate=15.66%
+Highest placement rate: matched (36.62%)
+Lowest placement rate: not matched (15.66%)
+
+Feature: competition_level
+high: Candidates=10045, Placed=2389, Placement Rate=23.78%
+low: Candidates=20841, Placed=6643, Placement Rate=31.87%
+medium: Candidates=19114, Placed=6098, Placement Rate=31.90%
+Highest placement rate: medium (31.90%)
+Lowest placement rate: high (23.78%)
+
+Feature: relocation_willingness
+Unknown: Candidates=8227, Placed=2301, Placement Rate=27.97%
+not willing: Candidates=14781, Placed=3884, Placement Rate=26.28%
+willing: Candidates=26992, Placed=8945, Placement Rate=33.14%
+Highest placement rate: willing (33.14%)
+Lowest placement rate: not willing (26.28%)
+
+NUMERICAL FEATURE INSIGHTS
+------------------------------------------------------------
+
+Feature: age_years
+Placed average: 27.47
+Not placed average: 27.52
+Mean difference: -0.05
+Observation: Higher average among not placed candidates.
+
+Feature: ssc_percentage
+Placed average: 69.97
+Not placed average: 70.03
+Mean difference: -0.06
+Observation: Higher average among not placed candidates.
+
+Feature: hsc_percentage
+Placed average: 72.03
+Not placed average: 72.07
+Mean difference: -0.04
+Observation: Higher average among not placed candidates.
+
+Feature: degree_percentage
+Placed average: 73.93
+Not placed average: 74.04
+Mean difference: -0.11
+Observation: Higher average among not placed candidates.
+
+Feature: technical_score
+Placed average: 75.30
+Not placed average: 64.88
+Mean difference: 10.42
+Observation: Higher average among placed candidates.
+
+Feature: aptitude_score
+Placed average: 64.59
+Not placed average: 63.74
+Mean difference: 0.85
+Observation: Higher average among placed candidates.
+
+Feature: communication_score
+Placed average: 67.57
+Not placed average: 65.46
+Mean difference: 2.11
+Observation: Higher average among placed candidates.
+
+Feature: skills_match_percentage
+Placed average: 77.50
+Not placed average: 72.40
+Mean difference: 5.10
+Observation: Higher average among placed candidates.
+
+Feature: certifications_count
+Placed average: 1.39
+Not placed average: 1.40
+Mean difference: -0.01
+Observation: Higher average among not placed candidates.
+
+Feature: years_of_experience
+Placed average: 2.19
+Not placed average: 1.19
+Mean difference: 0.99
+Observation: Higher average among placed candidates.
+
+Feature: previous_ctc_lpa
+Placed average: 5.17
+Not placed average: 4.70
+Mean difference: 0.47
+Observation: Higher average among placed candidates.
+
+Feature: expected_ctc_lpa
+Placed average: 7.23
+Not placed average: 8.34
+Mean difference: -1.11
+Observation: Higher average among not placed candidates.
+
+Feature: notice_period_days
+Placed average: 18.05
+Not placed average: 20.78
+Mean difference: -2.73
+Observation: Higher average among not placed candidates.
+
+Feature: employment_gap_months
+Placed average: 2.50
+Not placed average: 3.21
+Mean difference: -0.71
+Observation: Higher average among not placed candidates.
+
+Feature: placement_probability_score
+Placed average: 72.50
+Not placed average: 69.21
+Mean difference: 3.29
+Observation: Higher average among placed candidates.
+
+HIGH NUMERICAL CORRELATIONS
+------------------------------------------------------------
+No numerical feature pairs with |correlation| >= 0.80.

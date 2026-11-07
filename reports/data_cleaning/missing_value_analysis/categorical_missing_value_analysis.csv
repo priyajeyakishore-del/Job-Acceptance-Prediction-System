@@ -1,0 +1,12 @@
+Feature,Missing_Count,Missing_Percentage,Unique_Category_Count,Most_Frequent_Category,Most_Frequent_Count,Most_Frequent_Percentage,Recommended_Method,Reason
+gender,0,0.0,2,female,25205,50.29,No imputation needed,No missing values found.
+degree_specialization,0,0.0,5,others,10174,20.3,No imputation needed,No missing values found.
+internship_experience,0,0.0,2,no,26216,52.3,No imputation needed,No missing values found.
+career_switch_willingness,8242,16.44,2,not willing,27707,66.15,Unknown (candidate),Preserve missingness as a separate category when the reason for non-response is unclear.
+relevant_experience,8199,16.36,2,relevant,25597,61.05,Unknown (candidate),Preserve missingness as a separate category when the reason for non-response is unclear.
+company_tier,0,0.0,3,tier 1,19358,38.62,No imputation needed,No missing values found.
+job_role_match,5964,11.9,2,matched,32557,73.73,Unknown (candidate),Preserve missingness as a separate category when the reason for non-response is unclear.
+competition_level,0,0.0,3,low,20891,41.68,No imputation needed,No missing values found.
+bond_requirement,0,0.0,2,not required,39164,78.13,No imputation needed,No missing values found.
+layoff_history,8259,16.48,2,no,36328,86.77,Unknown (candidate),Preserve missingness as a separate category when the reason for non-response is unclear.
+relocation_willingness,8247,16.45,2,willing,27061,64.62,Unknown (candidate),Preserve missingness as a separate category when the reason for non-response is unclear.
