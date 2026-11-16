@@ -400,28 +400,19 @@ def placement_rate(data):
     return placed / total * 100
 
 
+
 def show_kpi(label, value, caption=""):
 
-    st.markdown(
-        f"""
-        <div class="kpi-card">
+    html = f"""
+    <div class="kpi-card">
+        <div class="kpi-label">{label}</div>
+        <div class="kpi-value">{value}</div>
+        <div class="kpi-caption">{caption}</div>
+    </div>
+    """
 
-            <div class="kpi-label">
-                {label}
-            </div>
+    st.html(html)
 
-            <div class="kpi-value">
-                {value}
-            </div>
-
-            <div class="kpi-caption">
-                {caption}
-            </div>
-
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
 
 
 def section_heading(title):
