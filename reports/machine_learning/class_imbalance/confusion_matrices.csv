@@ -1,0 +1,3 @@
+Model,True_Negative,False_Positive,False_Negative,True_Positive
+Original XGBoost,6604,370,422,2604
+SMOTE + XGBoost,6559,415,404,2622

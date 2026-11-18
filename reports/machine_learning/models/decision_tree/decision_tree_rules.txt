@@ -1,0 +1,292 @@
+|--- numerical__technical_score <= -0.67
+|   |--- numerical__technical_score <= -0.68
+|   |   |--- class: 0
+|   |--- numerical__technical_score >  -0.68
+|   |   |--- numerical__communication_score <= 1.07
+|   |   |   |--- numerical__degree_percentage <= -0.75
+|   |   |   |   |--- class: 0
+|   |   |   |--- numerical__degree_percentage >  -0.75
+|   |   |   |   |--- numerical__hsc_percentage <= -1.00
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- numerical__hsc_percentage >  -1.00
+|   |   |   |   |   |--- class: 0
+|   |   |--- numerical__communication_score >  1.07
+|   |   |   |--- class: 1
+|--- numerical__technical_score >  -0.67
+|   |--- numerical__years_of_experience <= 0.00
+|   |   |--- categorical__job_role_match_matched <= 0.50
+|   |   |   |--- numerical__technical_score <= 1.17
+|   |   |   |   |--- categorical__job_role_match_not matched <= 0.50
+|   |   |   |   |   |--- categorical__internship_experience_yes <= 0.50
+|   |   |   |   |   |   |--- numerical__skills_match_percentage <= 0.24
+|   |   |   |   |   |   |   |--- numerical__degree_percentage <= 1.97
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numerical__degree_percentage >  1.97
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- numerical__skills_match_percentage >  0.24
+|   |   |   |   |   |   |   |--- numerical__expected_ctc_lpa <= 0.22
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numerical__expected_ctc_lpa >  0.22
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- categorical__internship_experience_yes >  0.50
+|   |   |   |   |   |   |--- numerical__skills_match_percentage <= -0.59
+|   |   |   |   |   |   |   |--- categorical__relevant_experience_relevant <= 0.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- categorical__relevant_experience_relevant >  0.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- numerical__skills_match_percentage >  -0.59
+|   |   |   |   |   |   |   |--- numerical__previous_ctc_lpa <= -0.33
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numerical__previous_ctc_lpa >  -0.33
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- categorical__job_role_match_not matched >  0.50
+|   |   |   |   |   |--- categorical__internship_experience_yes <= 0.50
+|   |   |   |   |   |   |--- numerical__skills_match_percentage <= 1.75
+|   |   |   |   |   |   |   |--- numerical__expected_ctc_lpa <= -1.13
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numerical__expected_ctc_lpa >  -1.13
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- numerical__skills_match_percentage >  1.75
+|   |   |   |   |   |   |   |--- numerical__ssc_percentage <= -0.86
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- numerical__ssc_percentage >  -0.86
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- categorical__internship_experience_yes >  0.50
+|   |   |   |   |   |   |--- numerical__expected_ctc_lpa <= 0.41
+|   |   |   |   |   |   |   |--- categorical__relevant_experience_relevant <= 0.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- categorical__relevant_experience_relevant >  0.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- numerical__expected_ctc_lpa >  0.41
+|   |   |   |   |   |   |   |--- numerical__previous_ctc_lpa <= 1.37
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numerical__previous_ctc_lpa >  1.37
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |--- numerical__technical_score >  1.17
+|   |   |   |   |--- numerical__expected_ctc_lpa <= 0.26
+|   |   |   |   |   |--- numerical__skills_match_percentage <= -1.04
+|   |   |   |   |   |   |--- numerical__aptitude_score <= 0.60
+|   |   |   |   |   |   |   |--- numerical__previous_ctc_lpa <= 1.03
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numerical__previous_ctc_lpa >  1.03
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- numerical__aptitude_score >  0.60
+|   |   |   |   |   |   |   |--- categorical__career_switch_willingness_not willing <= 0.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- categorical__career_switch_willingness_not willing >  0.50
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- numerical__skills_match_percentage >  -1.04
+|   |   |   |   |   |   |--- categorical__internship_experience_yes <= 0.50
+|   |   |   |   |   |   |   |--- categorical__relevant_experience_relevant <= 0.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- categorical__relevant_experience_relevant >  0.50
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- categorical__internship_experience_yes >  0.50
+|   |   |   |   |   |   |   |--- categorical__layoff_history_yes <= 0.50
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- categorical__layoff_history_yes >  0.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- numerical__expected_ctc_lpa >  0.26
+|   |   |   |   |   |--- numerical__technical_score <= 2.00
+|   |   |   |   |   |   |--- numerical__skills_match_percentage <= 0.28
+|   |   |   |   |   |   |   |--- numerical__previous_ctc_lpa <= 1.17
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numerical__previous_ctc_lpa >  1.17
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- numerical__skills_match_percentage >  0.28
+|   |   |   |   |   |   |   |--- numerical__communication_score <= 1.23
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numerical__communication_score >  1.23
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- numerical__technical_score >  2.00
+|   |   |   |   |   |   |--- categorical__relevant_experience_relevant <= 0.50
+|   |   |   |   |   |   |   |--- numerical__communication_score <= 0.31
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numerical__communication_score >  0.31
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- categorical__relevant_experience_relevant >  0.50
+|   |   |   |   |   |   |   |--- numerical__ssc_percentage <= 0.31
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- numerical__ssc_percentage >  0.31
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |--- categorical__job_role_match_matched >  0.50
+|   |   |   |--- numerical__expected_ctc_lpa <= 0.27
+|   |   |   |   |--- numerical__skills_match_percentage <= -0.52
+|   |   |   |   |   |--- numerical__skills_match_percentage <= -1.61
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- numerical__skills_match_percentage >  -1.61
+|   |   |   |   |   |   |--- categorical__internship_experience_yes <= 0.50
+|   |   |   |   |   |   |   |--- numerical__technical_score <= 0.81
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numerical__technical_score >  0.81
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- categorical__internship_experience_yes >  0.50
+|   |   |   |   |   |   |   |--- categorical__relevant_experience_relevant <= 0.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- categorical__relevant_experience_relevant >  0.50
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- numerical__skills_match_percentage >  -0.52
+|   |   |   |   |   |--- numerical__technical_score <= 0.40
+|   |   |   |   |   |   |--- categorical__internship_experience_yes <= 0.50
+|   |   |   |   |   |   |   |--- numerical__previous_ctc_lpa <= -0.39
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numerical__previous_ctc_lpa >  -0.39
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- categorical__internship_experience_yes >  0.50
+|   |   |   |   |   |   |   |--- categorical__relevant_experience_relevant <= 0.50
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- categorical__relevant_experience_relevant >  0.50
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- numerical__technical_score >  0.40
+|   |   |   |   |   |   |--- categorical__relevant_experience_relevant <= 0.50
+|   |   |   |   |   |   |   |--- categorical__internship_experience_no <= 0.50
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- categorical__internship_experience_no >  0.50
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- categorical__relevant_experience_relevant >  0.50
+|   |   |   |   |   |   |   |--- categorical__layoff_history_yes <= 0.50
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- categorical__layoff_history_yes >  0.50
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |--- numerical__expected_ctc_lpa >  0.27
+|   |   |   |   |--- categorical__internship_experience_yes <= 0.50
+|   |   |   |   |   |--- numerical__technical_score <= 1.01
+|   |   |   |   |   |   |--- numerical__skills_match_percentage <= 1.08
+|   |   |   |   |   |   |   |--- numerical__previous_ctc_lpa <= 0.22
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numerical__previous_ctc_lpa >  0.22
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- numerical__skills_match_percentage >  1.08
+|   |   |   |   |   |   |   |--- numerical__previous_ctc_lpa <= 0.45
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numerical__previous_ctc_lpa >  0.45
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- numerical__technical_score >  1.01
+|   |   |   |   |   |   |--- numerical__skills_match_percentage <= 0.16
+|   |   |   |   |   |   |   |--- categorical__experience_category_Junior <= 0.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- categorical__experience_category_Junior >  0.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- numerical__skills_match_percentage >  0.16
+|   |   |   |   |   |   |   |--- numerical__previous_ctc_lpa <= 0.27
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numerical__previous_ctc_lpa >  0.27
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- categorical__internship_experience_yes >  0.50
+|   |   |   |   |   |--- numerical__technical_score <= 0.27
+|   |   |   |   |   |   |--- numerical__previous_ctc_lpa <= 0.94
+|   |   |   |   |   |   |   |--- numerical__skills_match_percentage <= 0.25
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numerical__skills_match_percentage >  0.25
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- numerical__previous_ctc_lpa >  0.94
+|   |   |   |   |   |   |   |--- numerical__skills_match_percentage <= -0.92
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numerical__skills_match_percentage >  -0.92
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- numerical__technical_score >  0.27
+|   |   |   |   |   |   |--- numerical__skills_match_percentage <= -1.58
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- numerical__skills_match_percentage >  -1.58
+|   |   |   |   |   |   |   |--- categorical__relevant_experience_relevant <= 0.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- categorical__relevant_experience_relevant >  0.50
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |--- numerical__years_of_experience >  0.00
+|   |   |--- numerical__skills_match_percentage <= -1.61
+|   |   |   |--- class: 0
+|   |   |--- numerical__skills_match_percentage >  -1.61
+|   |   |   |--- categorical__job_role_match_matched <= 0.50
+|   |   |   |   |--- numerical__years_of_experience <= 0.73
+|   |   |   |   |   |--- categorical__internship_experience_yes <= 0.50
+|   |   |   |   |   |   |--- numerical__technical_score <= 0.44
+|   |   |   |   |   |   |   |--- numerical__skills_match_percentage <= 1.20
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numerical__skills_match_percentage >  1.20
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- numerical__technical_score >  0.44
+|   |   |   |   |   |   |   |--- numerical__expected_ctc_lpa <= 0.73
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- numerical__expected_ctc_lpa >  0.73
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- categorical__internship_experience_yes >  0.50
+|   |   |   |   |   |   |--- numerical__expected_ctc_lpa <= 0.05
+|   |   |   |   |   |   |   |--- numerical__technical_score <= 0.24
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- numerical__technical_score >  0.24
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- numerical__expected_ctc_lpa >  0.05
+|   |   |   |   |   |   |   |--- numerical__technical_score <= 0.09
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numerical__technical_score >  0.09
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- numerical__years_of_experience >  0.73
+|   |   |   |   |   |--- numerical__technical_score <= -0.05
+|   |   |   |   |   |   |--- numerical__communication_score <= -1.32
+|   |   |   |   |   |   |   |--- numerical__ssc_percentage <= 1.26
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numerical__ssc_percentage >  1.26
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- numerical__communication_score >  -1.32
+|   |   |   |   |   |   |   |--- numerical__skills_match_percentage <= -0.52
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numerical__skills_match_percentage >  -0.52
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- numerical__technical_score >  -0.05
+|   |   |   |   |   |   |--- numerical__expected_ctc_lpa <= 0.18
+|   |   |   |   |   |   |   |--- categorical__layoff_history_yes <= 0.50
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- categorical__layoff_history_yes >  0.50
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- numerical__expected_ctc_lpa >  0.18
+|   |   |   |   |   |   |   |--- categorical__internship_experience_yes <= 0.50
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- categorical__internship_experience_yes >  0.50
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |--- categorical__job_role_match_matched >  0.50
+|   |   |   |   |--- numerical__technical_score <= -0.02
+|   |   |   |   |   |--- numerical__communication_score <= -1.12
+|   |   |   |   |   |   |--- numerical__technical_score <= -0.25
+|   |   |   |   |   |   |   |--- numerical__degree_percentage <= 1.78
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numerical__degree_percentage >  1.78
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- numerical__technical_score >  -0.25
+|   |   |   |   |   |   |   |--- numerical__communication_score <= -1.57
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numerical__communication_score >  -1.57
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- numerical__communication_score >  -1.12
+|   |   |   |   |   |   |--- numerical__years_of_experience <= 0.73
+|   |   |   |   |   |   |   |--- numerical__expected_ctc_lpa <= 0.68
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- numerical__expected_ctc_lpa >  0.68
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- numerical__years_of_experience >  0.73
+|   |   |   |   |   |   |   |--- numerical__expected_ctc_lpa <= 1.62
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- numerical__expected_ctc_lpa >  1.62
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- numerical__technical_score >  -0.02
+|   |   |   |   |   |--- numerical__years_of_experience <= 0.73
+|   |   |   |   |   |   |--- numerical__expected_ctc_lpa <= 0.80
+|   |   |   |   |   |   |   |--- categorical__layoff_history_yes <= 0.50
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- categorical__layoff_history_yes >  0.50
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- numerical__expected_ctc_lpa >  0.80
+|   |   |   |   |   |   |   |--- categorical__layoff_history_yes <= 0.50
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- categorical__layoff_history_yes >  0.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- numerical__years_of_experience >  0.73
+|   |   |   |   |   |   |--- categorical__layoff_history_yes <= 0.50
+|   |   |   |   |   |   |   |--- numerical__expected_ctc_lpa <= 2.14
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- numerical__expected_ctc_lpa >  2.14
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- categorical__layoff_history_yes >  0.50
+|   |   |   |   |   |   |   |--- numerical__expected_ctc_lpa <= 0.42
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- numerical__expected_ctc_lpa >  0.42
+|   |   |   |   |   |   |   |   |--- class: 1

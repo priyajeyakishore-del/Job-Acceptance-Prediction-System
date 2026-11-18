@@ -1,0 +1,5 @@
+Stage,Class,Class_Value,Count
+Before SMOTE,Not Placed,0,27896
+Before SMOTE,Placed,1,12104
+After SMOTE,Not Placed,0,27896
+After SMOTE,Placed,1,27896

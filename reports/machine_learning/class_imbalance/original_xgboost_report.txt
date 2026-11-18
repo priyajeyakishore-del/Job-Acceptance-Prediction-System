@@ -1,0 +1,18 @@
+MODEL: Original XGBoost
+
+Model        Original XGBoost
+Accuracy               0.9208
+Precision            0.875588
+Recall               0.860542
+F1_Score                0.868
+ROC_AUC              0.976687
+
+Classification Report:
+              precision    recall  f1-score   support
+
+  Not Placed       0.94      0.95      0.94      6974
+      Placed       0.88      0.86      0.87      3026
+
+    accuracy                           0.92     10000
+   macro avg       0.91      0.90      0.91     10000
+weighted avg       0.92      0.92      0.92     10000

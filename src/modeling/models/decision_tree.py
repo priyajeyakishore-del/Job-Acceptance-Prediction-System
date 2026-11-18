@@ -25,7 +25,7 @@ from sklearn.metrics import (
     roc_curve
 )
 
-
+from sklearn.tree import plot_tree, export_text
 # ============================================================
 # 1. PROJECT PATHS
 # ============================================================
@@ -127,7 +127,60 @@ model.fit(X_train, y_train)
 
 print("Model training completed successfully!")
 
+# ============================================================
+# 6. DECISION TREE STRUCTURE
+# ============================================================
 
+# 1. Identify Root Node
+root_feature_index = model.tree_.feature[0]
+root_feature = X_train.columns[root_feature_index]
+
+print("\nROOT NODE")
+print("Root Feature:", root_feature)
+print("Root Gini:", model.tree_.impurity[0])
+print("Root Samples:", model.tree_.n_node_samples[0])
+
+
+# 2. Visualize Decision Tree
+plt.figure(figsize=(25, 15))
+
+plot_tree(
+    model,
+    feature_names=X_train.columns,
+    class_names=["Not Placed", "Placed"],
+    filled=True,
+    rounded=True,
+    fontsize=8
+)
+
+plt.title("Decision Tree - Job Placement Prediction")
+plt.tight_layout()
+
+plt.savefig(
+    GRAPH_DIR / "decision_tree_structure.png",
+    dpi=300,
+    bbox_inches="tight"
+)
+
+plt.close()
+
+
+# 3. Export Decision Tree Rules
+tree_rules = export_text(
+    model,
+    feature_names=list(X_train.columns),
+    max_depth=8
+)
+
+print("\nDECISION TREE RULES")
+print(tree_rules)
+
+with open(
+    REPORT_DIR / "decision_tree_rules.txt",
+    "w"
+) as file:
+    file.write(tree_rules)
+    
 # ============================================================
 # 6. GENERATE PREDICTIONS
 # ============================================================
