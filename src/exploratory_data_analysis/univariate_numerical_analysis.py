@@ -211,6 +211,145 @@ def save_report(summary):
     print("\nNumerical summary saved:")
     print(report_file)
 
+# ============================================================
+# 7. COMBINED NUMERICAL UNIVARIATE ANALYSIS
+# ============================================================
+
+def plot_combined_numerical_analysis(df, features):
+
+    print("\nGenerating combined numerical analysis image...")
+
+    import math
+
+    # Three charts per row in each section
+    cols = 3
+    rows = math.ceil(len(features) / cols)
+
+    # 16:9 landscape presentation layout
+    fig = plt.figure(figsize=(20, 11.25))
+
+    fig.suptitle(
+        "NUMERICAL UNIVARIATE ANALYSIS",
+        fontsize=23,
+        fontweight="bold",
+        y=0.985
+    )
+
+    # Main layout: histograms on left, boxplots on right
+    outer_grid = fig.add_gridspec(
+        1, 2,
+        left=0.045,
+        right=0.98,
+        top=0.91,
+        bottom=0.055,
+        wspace=0.18
+    )
+
+    histogram_grid = outer_grid[0].subgridspec(
+        rows, cols,
+        hspace=0.65,
+        wspace=0.35
+    )
+
+    boxplot_grid = outer_grid[1].subgridspec(
+        rows, cols,
+        hspace=0.65,
+        wspace=0.35
+    )
+
+    # Section headings
+    fig.text(
+        0.255, 0.925,
+        "DISTRIBUTION ANALYSIS",
+        ha="center",
+        fontsize=15,
+        fontweight="bold"
+    )
+
+    fig.text(
+        0.745, 0.925,
+        "OUTLIER ANALYSIS",
+        ha="center",
+        fontsize=15,
+        fontweight="bold"
+    )
+
+    for i, feature in enumerate(features):
+
+        row = i // cols
+        col = i % cols
+
+        values = df[feature].dropna()
+
+        # ---------------- HISTOGRAM ----------------
+
+        ax1 = fig.add_subplot(
+            histogram_grid[row, col]
+        )
+
+        sns.histplot(
+            values,
+            kde=True,
+            ax=ax1
+        )
+
+        ax1.set_title(
+            feature.replace("_", " ").title(),
+            fontsize=9,
+            fontweight="bold"
+        )
+
+        ax1.set_xlabel("")
+        ax1.set_ylabel("Frequency", fontsize=7)
+
+        ax1.tick_params(
+            axis="both",
+            labelsize=7
+        )
+
+        # ---------------- BOXPLOT ----------------
+
+        ax2 = fig.add_subplot(
+            boxplot_grid[row, col]
+        )
+
+        sns.boxplot(
+            x=values,
+            ax=ax2,
+            showfliers=True
+        )
+
+        ax2.set_title(
+            feature.replace("_", " ").title(),
+            fontsize=9,
+            fontweight="bold"
+        )
+
+        ax2.set_xlabel("")
+        ax2.set_ylabel("")
+
+        ax2.tick_params(
+            axis="both",
+            labelsize=7
+        )
+
+    # Save one combined image
+    combined_file = (
+        GRAPH_DIR / "combined_numerical_univariate_analysis.png"
+    )
+
+    fig.savefig(
+        combined_file,
+        dpi=300,
+        bbox_inches="tight",
+        facecolor="white"
+    )
+
+    plt.close(fig)
+
+    print("\nCombined numerical analysis image saved:")
+    print(combined_file)
+
 
 # ============================================================
 # 8. MAIN FUNCTION
@@ -242,7 +381,17 @@ def main():
     print("\n" + "=" * 75)
     print("NUMERICAL UNIVARIATE ANALYSIS COMPLETED")
     print("=" * 75)
+    plot_histograms(df, numerical_features)
 
+    plot_boxplots(df, numerical_features)
+
+    # Generate combined PPT image
+    plot_combined_numerical_analysis(
+        df,
+        numerical_features
+    )
+
+    save_report(summary)
 
 # ============================================================
 # 9. EXECUTION
